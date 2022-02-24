@@ -1,0 +1,42 @@
+#tissue {
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.annotations-sidebar {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20%;
+    background-color: rgba(31, 30, 30, 0.5);
+    color: white;
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.annotations-sidebar > h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+.annotations-sidebar > form > input {
+    background-color: rgba(31, 30, 30, 0);
+    color: white;
+}
+
+input {
+    color: white;
+    font-size: 1em;
+}
+
+.chats {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    background-color: rgba(31, 30, 30, 0.5);
+    color: white;
+    border-radius: 10px;
+    padding: 1px;
+}
